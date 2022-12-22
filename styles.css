@@ -10,3 +10,35 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+body {
+    font-family: "Segoe UI";
+    background-color: white;
+    color:black;
+    margin: 0;
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1 rem;
+}
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: .7rem;
+}
+nav li{
+    display: inline;
+    margin-left: 3rem;
+}
+nav a{
+    color: black;
+    font-size:small;
+    text-decoration: none;
+
+}
+.nav img {
+    width: 20px;
+}
