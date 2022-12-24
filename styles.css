@@ -21,24 +21,199 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 4;
     width: 100%;
-    padding: 1 rem;
+    padding: 2rem;
+    box-shadow: 1px 0px 0px 2px;
 }
 nav ul{
     list-style-type: none;
     position: absolute;
-    top: .7rem;
+    left: 4rem;
+    top: 2.5rem;
 }
 nav li{
     display: inline;
-    margin-left: 3rem;
+    margin-left: 30px;
 }
-nav a{
+nav #anchor1{
+    color: black;
+    font-size: small;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+nav form{
+    position: absolute;
+    right: 11rem;
+    top: 2rem;
+    background-color: rgb(255, 255, 255);
+    background-image: url("./assets/1200px-Google_Magnifying_Glass.svg.png");
+    background-size: 20px;
+    background-position: 100px 0px; 
+    background-repeat: no-repeat;
+}
+nav #anchor2{
     color: black;
     font-size:small;
     text-decoration: none;
-
+    position:absolute;
+    top: 2rem;
+    right: 4rem;
 }
-.nav img {
-    width: 20px;
+main{
+    margin: auto;
+    margin-top: 6rem;
+    width: 90%;
+}
+.home{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.home #bowl{
+    background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    background-size:cover;
+}
+.home #b{
+    position: relative;
+    text-align: right;
+    bottom: -195px;
+}
+.about h1{
+    font-size: 20px;
+    border-bottom: solid;
+    border-color: black;
+    margin-right: 400px;
+    margin-top: 40px;
+}
+.about #para1{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 410px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.about #image2{
+    float:right;
+    width: 350px;
+    margin-top: 40px;
+    
+    clear: left;
+}
+.about #image1{
+    float: left;
+    width: 250px;
+}
+.about #para2{
+    margin-left: 300px;
+    margin-right: 410px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.about #para3{
+    margin-left: 300px;
+    margin-right: 410px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.products h1{
+    font-size: 20px;
+    border-bottom: solid;
+    border-color: black;
+    margin-right: 400px;
+    margin-top: 80px;
+}
+.products ul{
+    list-style: none;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    column-gap: 80px;
+}
+.products h2{
+    border-bottom: solid;
+    border-color: black;
+    margin-right: 180px;
+    margin-top: 5px;
+    text-decoration: none;
+    
+}
+.products img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+    object-fit:cover;
+}
+.products #learnmore{
+    color: #bf7631;
+    text-decoration-line: underline;
+    position: relative;
+    margin-right: 147px;
+}
+.products p{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.products button{
+    background-color: #bf7631;
+    color: white;
+    border: none;
+}
+.products #learnmore, button{
+    display: inline;
+}
+.products div{
+    margin-bottom: 80px;
+}
+.contact h1{
+    font-size: 20px;
+    border-bottom: solid;
+    border-color: black;
+    margin-right: 400px;
+    margin-top: 80px;
+    
+}
+
+
+
+
+footer{
+    background-color: #bf7631;
+    display: flex;
+    justify-content: center;
+}
+footer div{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 1rem;
+    font-size: 20px;
+}
+footer #logo2{
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
