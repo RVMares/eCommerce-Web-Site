@@ -10,22 +10,22 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li href="">HOME</li>
-                <li href="">ABOUT</li>
-                <li href="">PRODUCTS</li>
-                <li href="">CONTACT</li>
-            </ul>
-            <a href="" id="anchor1"> CARA
+            <div id="nav_links">
+                <a href="">HOME</a>
+                <a href="#About_Us">ABOUT US</a>
+                <a href="#Products_Catalog">PRODUCTS</a>
+                <a href="#Contact_Us">CONTACT</a>
+            </div>
+            <div><p> CARA
                 <img src="./assets/icons8-pottery-96.png" alt="orange vase logo" style="width:20px";>
                 CARA
-            </a>
+            </p></div>
             <form>
                 <input type="text" name="search">
             </form>
-            <!-- <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="magnifying glass"
-            style="width:20px";> -->
-            <a href="" id="anchor2">CART (0)</a>
+            <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="magnifying glass"
+            style="width:20px"; id="magnifying-glass">
+            <a href="javascript:void(0)" id="anchor2">CART (0)</a>
         </nav>
     </header>
     
@@ -40,7 +40,7 @@
             </div>
         </section>
         <section class="about">
-            <h1>ABOUT US</h1>
+            <div id="About_Us"><h1>ABOUT US</h1></div>
             <img id="image2" src="./assets/Cylinder_unglazed3_2048x2048.jpg" 
                 alt="white cylindrical vase with plant">
             <p id="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -70,10 +70,10 @@
                 Nullam ac tortor vitae purus</p>
         </section>
         <section class="products">
-            <h1>OUR PRODUCTS</h1>
+            <h1 id="Products_Catalog">OUR PRODUCTS</h1>
             <ul>
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo bowls, One big bowl and two smaller bowls">
                         <h2><li href="">MUNDO BOWLS</li></h2>
                         <a>$48.00</a>
@@ -82,12 +82,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
-                        <button onclick="">ADD TO CART</button>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
+                        <button type="button">ADD TO CART</button>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Tall copper vase">
                         <h2><li href="">NATUREZA VASE</li></h2>
                         <a>$37.00</a>
@@ -96,12 +96,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                            <a id="learnmore" href=""> LEARN MORE</a>
+                            <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>    
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Two white bowls">
                         <h2><li href="">FEIRA BOWLS</li></h2>
                         <a>$29.00</a>
@@ -110,12 +110,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Two pots with lids">
                         <h2><li href="">NATUREZA POTS</li></h2>
                         <a>$59.00</a>
@@ -124,12 +124,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>
                 <div>    
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Small white vase">
                         <h2><li href="">PEDRA VASE</li></h2>
                         <a>$31.00</a>
@@ -138,12 +138,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Two small pots with lids">
                         <h2><li href="">VIAJA POTS</li></h2>
                         <a>$57.00</a>
@@ -152,12 +152,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Four dinner plates">
                         <h2><li href="">SERVIÇO PLATES</li></h2>
                         <a>$35.00</a>
@@ -166,12 +166,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>    
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="Tall blue vase">
                         <h2><li href="">CAMPEÃO VASE</li></h2>
                         <a>$37.00</a>
@@ -180,12 +180,12 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>    
                 <div>
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Five dinner bowls">
                         <h2><li href="">TROCA BOWLS</li></h2>
                         <a>$25.00</a>
@@ -194,7 +194,7 @@
                             commodo quis imperdiet massa. Amet
                             tellus cras adipiscing enim eu turpis
                             egestas pretium aenean.</p>
-                        <a id="learnmore" href=""> LEARN MORE</a>
+                        <a id="learnmore" href="javascript:void(0)"> LEARN MORE</a>
                         <button onclick="">ADD TO CART</button>
                     </a>
                 </div>
@@ -202,27 +202,27 @@
 
         </section>
         <section class="contact">
-            <h1>CONTACT US</h1>
+            <h1 id="Contact_Us">CONTACT US</h1>
             <form>
                 <label for="email">EMAIL</label><br>
-                <input type="text">
+                <input type="text"  id="email">
             
                 <label for="message">MESSAGE</label><br>
-                <input type="text">
+                <input type="text" id="message">
 
-                <input type="submit" value="SEND">
+                <input type="submit" value="SEND" id="submit">
             </form>
         </section>
     </main>
 
     <footer>
         <div>
-            <a href="" id="youtube">
+            <a href="javascript:void(0)" id="youtube">
             <img src="./assets/icons8-youtube-96.png" alt="Youtube logo" style="width:40px">
             </a>
         </div>
         <div>
-            <a href="" id="facebook">
+            <a href="javascript:void(0)" id="facebook">
             <img src="./assets/icons8-facebook-96 (1).png" alt="Facebook logo" style="width:40px">
             </a>
         </div>
@@ -234,16 +234,20 @@
             </a>
         </div>
         <div>
-            <a href="" id="twitter">
+            <a href="javascript:void(0)" id="twitter">
             <img src="./assets/icons8-twitter-96.png" alt="Twitter logo" style="width:40px">
             </a>
         </div>
         <div>
-            <a href=""id=insta>
+            <a href="javascript:void(0)" id=insta>
             <img src="./assets/icons8-instagram-96.png" alt="Instagram logo" style="width:40px">
             </a>
         </div>
-        
+        <div id="copyright">
+            <p>Pretium nibh ipsum consequat nisl vel pretium. </p>
+            <p>©Copyright Amet tellus cras adipiscing enim eu turpis.</p>
+            <p>2015 - 2020</p>
+        </div>
     </footer>
 </body>
 </html> 
